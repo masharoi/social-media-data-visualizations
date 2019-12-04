@@ -1,0 +1,67 @@
+* {
+  font-family: "Sulphur Point", sans-serif;
+}
+
+body {
+  margin: 0;
+}
+
+.pink-color {
+  color: #7d488e;
+}
+
+.yellow-color {
+  color: #fed337;
+}
+
+.orange-color {
+  color: #da9101;
+}
+
+.black-background {
+  background: #e3e3e3;
+}
+
+.green-color {
+  color: #666103;
+}
+
+#intro {
+  height: 200px;
+  display: flex;
+  align-items: center;
+}
+
+#online-dating-charts {
+  height: 500px;
+  width: 650px;
+}
+
+#dating-charts-outer {
+  display: flex;
+  flex-direction:column;
+}
+
+#dating-section {
+    padding-left: 50px;
+}
+
+.h1-style {
+  margin: 0;
+  padding-left: 50px;
+  font-size: 28px;
+}
+
+.h2-style {
+  margin: 0;
+  padding-top: 50px;
+  font-size: 16px;
+}
+
+.dating-gender-label {
+  font-size: 8pt;
+}
+
+.axis {
+  font-size: 8pt;
+}

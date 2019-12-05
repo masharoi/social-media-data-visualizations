@@ -15,17 +15,16 @@
         Social media & online dating in United States
       </h1>
     </section>
-    <section id="dating-section">
-      <div id="dating-charts-outer">
+    <section class="dating-section">
+      <div class="dating-charts-outer">
         <h2 class="h2-style">
-          Users that have or know someone <br />who has met a romantic partner
-          on dating platform
+          Motivations of people using dating apps in 2019
         </h2>
-        <div id="gender-age-switcher">
+        <div class="gender-age-switcher">
           <label>
             <input
               id="motivations-gender-radio"
-              name="age-gender-radio"
+              name="motivations-radio"
               type="radio"
               checked
             />
@@ -34,16 +33,49 @@
           <label>
             <input
               id="motivations-age-radio"
-              name="age-gender-radio"
+              name="motivations-radio"
               type="radio"
             />
             <span>By Age</span>
           </label>
         </div>
-        <div id="online-dating-charts"></div>
+        <div id="motivations-charts"></div>
       </div>
     </section>
+
+    <section class="dating-section">
+      <div class="dating-charts-outer">
+        <h2 class="h2-style">
+          Dating platforms usage in 2019
+        </h2>
+        <div class="gender-age-switcher">
+          <label>
+            <input
+              id="usage-gender-radio"
+              name="usage-radio"
+              type="radio"
+              checked
+            />
+            <span>By Gender</span>
+          </label>
+          <label>
+            <input
+              id="usage-age-radio"
+              name="usage-radio"
+              type="radio"
+            />
+            <span>By Age</span>
+          </label>
+        </div>
+        <div id="usage-charts"></div>
+      </div>
+    </section>
+
     <section id="online-platforms">Online Platforms</section>
-    <script src="./script.js"></script>
+    <script src="./scripts/constants.js"></script>
+    <script src="./scripts/utils.js"></script>
+    <script src="./scripts/dating-utils.js"></script>
+    <script src="./scripts/dating-motivations.js"></script>
+    <script src="./scripts/dating-usage.js"></script>
   </body>
 </html>

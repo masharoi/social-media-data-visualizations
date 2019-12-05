@@ -4,10 +4,11 @@
 
 body {
   margin: 0;
+  background: white;
 }
 
 .pink-color {
-  color: #7d488e;
+  color: #fa697c;
 }
 
 .yellow-color {
@@ -33,23 +34,33 @@ body {
 }
 
 #online-dating-charts {
-  height: 500px;
+  height: 600px;
   width: 650px;
 }
 
 #dating-charts-outer {
   display: flex;
-  flex-direction:column;
+  flex-direction: column;
+  align-items: center;
 }
 
 #dating-section {
-    padding-left: 50px;
+  padding-left: 50px;
 }
 
+#gender-age-switcher {
+  padding-top: 30px;
+  font-size: 16px;
+}
+
+#dating-motivations-subheader {
+  padding-left: 190px;
+}
 .h1-style {
   margin: 0;
   padding-left: 50px;
   font-size: 28px;
+  color: black;
 }
 
 .h2-style {
@@ -58,7 +69,7 @@ body {
   font-size: 16px;
 }
 
-.dating-gender-label {
+.dating-label {
   font-size: 8pt;
 }
 
